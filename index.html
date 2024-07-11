@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="icon_calculate.png">
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" name="" id="show">
+        </div>
+
+        <div class="btns">
+            <button class="red" onclick="Clear()">C</button>
+            <button class="red" onclick="Delete()">D</button>
+            <button class="blue">%</button>
+            <button class="blue" onclick="AddToDisplay('/')">/</button>
+            <button onclick="AddToDisplay('7')">7</button>
+            <button onclick="AddToDisplay('8')">8</button>
+            <button onclick="AddToDisplay('9')">9</button>
+            <button class="blue" onclick="AddToDisplay('*')">x</button>
+            <button onclick="AddToDisplay('4')">4</button>
+            <button onclick="AddToDisplay('5')">5</button>
+            <button onclick="AddToDisplay('6')">6</button>
+            <button class="blue" onclick="AddToDisplay('-')">-</button>
+            <button onclick="AddToDisplay('1')">1</button>
+            <button onclick="AddToDisplay('2')">2</button>
+            <button onclick="AddToDisplay('3')">3</button>
+            <button class="blue" onclick="AddToDisplay('+')">+</button>
+            <button onclick="AddToDisplay('00')">00</button>
+            <button onclick="AddToDisplay('0')">0</button>
+            <button onclick="AddToDisplay('.')">.</button>
+            <button class="blue" onclick="Calculate()">=</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
