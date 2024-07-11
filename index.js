@@ -13,7 +13,13 @@ function Delete () {
 }
 
 function Calculate() {
-    display.value = eval(display.value)
+    try {
+
+        display.value = eval(display.value)
+    }
+    catch(err){
+        alert("Please Enter a Value")
+    }
 }
 
 display.addEventListener('input', function (e) {
